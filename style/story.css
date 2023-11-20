@@ -1,0 +1,50 @@
+:root {
+  --primary: #ffd60a;
+  --secondary: #003566;
+  --font: #fff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.story {
+  padding: 4rem 0;
+  color: var(--font);
+}
+.story span {
+  font-family: "Port Lligat Slab", serif;
+  font-size: 2.5rem;
+  color: var(--primary);
+}
+.story h1 {
+  font-size: 4rem;
+  font-family: "Port Lligat Slab", serif;
+  font-style: normal;
+  font-weight: 600;
+}
+.story img {
+  width: 100%;
+}
+.story .top {
+  margin: 3rem 0;
+}
+.story .bot {
+  height: auto;
+}
+.story p {
+  text-align: justify;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
+}
+.story h2 {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+.story .last {
+  margin: 4rem 0;
+}

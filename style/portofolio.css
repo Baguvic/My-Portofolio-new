@@ -1,0 +1,119 @@
+:root {
+  --primary: #ffd60a;
+  --secondary: #003566;
+  --font: #fff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.portofolio {
+  padding-top: 8rem;
+  padding-bottom: 0;
+}
+.portofolio h1 {
+  font-family: "Port Lligat Slab", serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--font);
+}
+.portofolio h1 span {
+  color: var(--primary);
+  font-family: "Port Lligat Slab", serif;
+  font-weight: 600;
+}
+.portofolio .top {
+  font-family: "Port Lligat Slab", serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--font);
+}
+.portofolio .form {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portofolio input {
+  width: 70%;
+  height: 4rem;
+  padding: 1rem;
+  border-style: none;
+  outline: none;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.portofolio button {
+  padding: 1rem;
+  height: 4rem;
+  border-radius: 0;
+  background-color: var(--primary);
+  color: var(--font);
+  margin-left: 2rem;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* list */
+.list {
+  padding-bottom: 4rem;
+  color: var(--font);
+}
+.list .seacrhList {
+  padding: 0;
+  overflow: hidden;
+  margin: 1rem !important;
+}
+
+.list .backList {
+  background-color: #444;
+}
+.list img {
+  width: 100%;
+}
+.list .listBody {
+  padding: 1rem;
+}
+.list h5,
+.list p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.list a {
+  padding: 0.625rem;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 600;
+  border-style: none;
+}
+.list .link1 {
+  background-color: var(--primary);
+  color: var(--font);
+}
+.list .link2 {
+  background-color: var(--font);
+  color: var(--primary);
+}
+.list .col {
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+}
+.list .col:hover {
+  background-color: #5b5b5b;
+  border-radius: 10px;
+}
+
+.list .bot a {
+  padding: 0.75rem 1.875rem;
+  background-color: var(--primary);
+  border-radius: 3.125rem;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--font);
+}

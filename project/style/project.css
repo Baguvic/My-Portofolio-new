@@ -1,0 +1,97 @@
+* {
+  color: #fff;
+}
+.project {
+  padding: 9rem 0;
+}
+.project h2 {
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Port Lligat Sans", sans-serif;
+}
+.project h2 span {
+  color: #ffd60a;
+  font-size: 4rem;
+  font-family: "Port Lligat Sans", sans-serif;
+}
+.project p {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Port Lligat Sans", sans-serif;
+}
+.project .left .header-body .small {
+  width: 30rem;
+  margin: auto;
+}
+.project img {
+  width: 100%;
+}
+.project .left .header-body .small img {
+  width: 18rem;
+  object-position: center;
+  margin: auto;
+}
+.project .left {
+  padding: 0;
+}
+.header-body {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+.project h3 {
+  font-size: 2rem;
+  font-family: "Port Lligat Sans", sans-serif;
+}
+.project h4 {
+  font-size: 1.5rem;
+  font-family: "Port Lligat Sans", sans-serif;
+}
+.project .img-bot {
+  width: 25rem;
+  height: 9.5625rem;
+}
+.project .text-bot p {
+  font-size: 0.96rem;
+  text-align: justify;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.project .Inspirations a {
+  margin: 0 0.5rem;
+}
+.project .Inspirations img {
+  width: 3.125rem;
+}
+.project .btn-buttom {
+  padding: 0.625rem 3rem;
+  border-radius: 0.625rem;
+  background: #fed624;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.project .side {
+  font-size: 1.5rem;
+}
+.footer .sosmed .project-icon {
+  color: #fff !important;
+  font-size: 2rem;
+  margin: 0 1rem;
+  transition: linear 0.3;
+}
+.footer .sosmed .project-icon:hover {
+  color: #fed624 !important;
+  font-size: 2rem;
+  margin: 0 1rem;
+  transition: linear 0.3;
+}
